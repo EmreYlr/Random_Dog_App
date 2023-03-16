@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-es-eTK">
-                                <rect key="frame" x="34" y="245" width="325" height="249"/>
+                                <rect key="frame" x="34" y="166" width="325" height="249"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciC-eD-gaz">
-                                <rect key="frame" x="79" y="659" width="234" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Random" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciC-eD-gaz">
+                                <rect key="frame" x="79" y="59" width="234" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="Fe1-QC-svK"/>
                                 </constraints>
@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7f-me-58p">
-                                <rect key="frame" x="119" y="549" width="154" height="67"/>
+                                <rect key="frame" x="119" y="685" width="154" height="67"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -46,7 +46,7 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udx-Yt-yN3">
-                                <rect key="frame" x="34" y="48" width="325" height="162"/>
+                                <rect key="frame" x="34" y="468" width="325" height="162"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="OJm-tu-7vd"/>
@@ -63,12 +63,12 @@
                             <constraint firstItem="NTM-es-eTK" firstAttribute="centerX" secondItem="T7f-me-58p" secondAttribute="centerX" id="XUM-7X-q8z"/>
                             <constraint firstItem="ciC-eD-gaz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="ekA-GL-blU"/>
                             <constraint firstItem="T7f-me-58p" firstAttribute="centerX" secondItem="ciC-eD-gaz" secondAttribute="centerX" id="fuu-no-WUr"/>
-                            <constraint firstItem="ciC-eD-gaz" firstAttribute="top" secondItem="T7f-me-58p" secondAttribute="bottom" constant="43" id="mGD-ie-Weo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ciC-eD-gaz" secondAttribute="bottom" constant="93" id="msR-z8-qO3"/>
-                            <constraint firstItem="T7f-me-58p" firstAttribute="top" secondItem="NTM-es-eTK" secondAttribute="bottom" constant="55" id="n0l-2g-pBF"/>
+                            <constraint firstItem="ciC-eD-gaz" firstAttribute="top" secondItem="T7f-me-58p" secondAttribute="bottom" constant="-693" id="mGD-ie-Weo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ciC-eD-gaz" secondAttribute="bottom" constant="693" id="msR-z8-qO3"/>
+                            <constraint firstItem="T7f-me-58p" firstAttribute="top" secondItem="NTM-es-eTK" secondAttribute="bottom" constant="270" id="n0l-2g-pBF"/>
                             <constraint firstItem="udx-Yt-yN3" firstAttribute="trailing" secondItem="NTM-es-eTK" secondAttribute="trailing" id="pLN-Pb-cNR"/>
-                            <constraint firstItem="udx-Yt-yN3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-11" id="pt9-y3-Gdb"/>
-                            <constraint firstItem="NTM-es-eTK" firstAttribute="top" secondItem="udx-Yt-yN3" secondAttribute="bottom" constant="35" id="uRc-li-KqV"/>
+                            <constraint firstItem="udx-Yt-yN3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="409" id="pt9-y3-Gdb"/>
+                            <constraint firstItem="NTM-es-eTK" firstAttribute="top" secondItem="udx-Yt-yN3" secondAttribute="bottom" constant="-464" id="uRc-li-KqV"/>
                         </constraints>
                     </view>
                     <connections>
